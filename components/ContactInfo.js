@@ -1,6 +1,5 @@
 
 import Heading from "./Heading";
-import {contactType} from "../types";
 
 
 
