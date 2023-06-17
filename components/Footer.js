@@ -3,7 +3,9 @@ import Heading from "./Heading"
 
 const Footer = () => (
     <footer>
-        <Heading tag="h3" text="Footer" />
+        <div className="footer_copyright">
+            <Heading tag="h3" text="2023 All Rights Reserved." />
+        </div>
     </footer>
 )
 

@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <nav className={css.nav}>
             <div className={css.logo}>
-                <Image src="/logo.png" alt="logo" width={60} height={60}/>
+                <Image src="https://essayswriter.org/wp-content/themes/twentytwenty/img/logo.svg" alt="logo" width={170} height={35}/>
             </div>
             <div className={css.links}>
                 {navigation.map(({id, title, path}) => (

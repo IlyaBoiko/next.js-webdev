@@ -2,6 +2,7 @@ import {useEffect, useState} from "react";
 import Heading from "../../components/Heading";
 import Head from "next/head";
 import Link from "next/link";
+import css from "../../styles/Contacts.module.scss";
 
 
 export const getStaticProps = async () => {
@@ -29,7 +30,7 @@ const Contacts = ({contacts}) => {
             <ul>
                 {contacts && contacts.map(({id, name}) => (
                     <li key={id}>
-                        <Link href={`/contacts/${id}`}>{name}</Link>
+                        <Link className={css.link} href={`/contacts/${id}`}>{name}</Link>
                     </li>
                 ))}
             </ul>
